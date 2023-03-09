@@ -1,6 +1,17 @@
+'''
+Mya Ramsey
+Lael Thomas
+Lab 06
+'''
 def encode(phrase):
-    pass
+    new_phrase = ""
+    for num in phrase:
+        num = int(num)
+        num += 3
+        num = str(num)
+        new_phrase += num
 
+    return new_phrase
 
 def decode(phrase):
     decoded_password = ""
